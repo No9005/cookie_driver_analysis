@@ -37,7 +37,7 @@ To uninstall the required packages with **pipenv** (on a **linux** machine):<br>
 --------------------------
 >> cd *PATH-TO-GIT-DIRECTORY* <br>
 >> pipenv --venv <br>
->> rm -r *VENV-PATH-SHOWN-BY-PIPENV**
+>> rm -r *VENV-PATH-SHOWN-BY-PIPENV*
 ---------------------------
 
 As an alternative you can delete the directory (shown by pipenv --venv) manually by using your computers file browser.<br>
