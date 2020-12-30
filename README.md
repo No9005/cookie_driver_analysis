@@ -17,13 +17,15 @@ Finally, a few additional analyses were performed. <br>
 # Installation & startup
 A virutal environment was used to install the required python packages. <br>
 If you use **pipenv** on a **linux** machine, you can use the following installation process: <br>
+<br>
 
-----------------------------
+```
 >> cd *PATH-TO-GIT-DIRECTORY* <br>
 >> pipenv install <br>
 >> pipenv run jupyter notebook py_files/analysis.ipynb
-----------------------------
+```
 
+<br>
 Please make sure to install the required python version (3.8) first. <br>
 During the installation, **pipenv** should show you the location of your virtual environment. <br>
 You can use a virtual environment manager of your choice if you do not like to use **pipenv**. <br>
@@ -33,13 +35,15 @@ Uninstalling is as easy as deleting the virtual environment directory.<br>
 Every installed package is installed in that particular **pipenv** **venv** directory.<br>
 <br>
 To uninstall the required packages with **pipenv** (on a **linux** machine):<br>
+<br>
 
---------------------------
+```
 >> cd *PATH-TO-GIT-DIRECTORY* <br>
 >> pipenv --venv <br>
 >> rm -r *VENV-PATH-SHOWN-BY-PIPENV*
----------------------------
+```
 
+<br>
 As an alternative you can delete the directory (shown by pipenv --venv) manually by using your computers file browser.<br>
 <br>
 # Alternative to installing the packages
