@@ -23,8 +23,8 @@ If you use **pipenv** on a **linux** machine, you can use the following installa
 <br>
 
 ```
->> cd *PATH-TO-GIT-DIRECTORY* <br>
->> pipenv install <br>
+>> cd *PATH-TO-GIT-DIRECTORY*
+>> pipenv install
 >> pipenv run jupyter notebook py_files/analysis.ipynb
 ```
 
@@ -42,8 +42,8 @@ To uninstall the required packages with **pipenv** (on a **linux** machine):<br>
 <br>
 
 ```
->> cd *PATH-TO-GIT-DIRECTORY* <br>
->> pipenv --venv <br>
+>> cd *PATH-TO-GIT-DIRECTORY*
+>> pipenv --venv
 >> rm -r *VENV-PATH-SHOWN-BY-PIPENV*
 ```
 
